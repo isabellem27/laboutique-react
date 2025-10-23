@@ -5,10 +5,12 @@ En cours
 
 # Description
 
-**Expliquer** ce que votre projet peut faire spécifiquement.  
-Donner du **contexte** , ajoutez un lien vers toute référence qui pourraient aider votre projet.  
-Une liste de **fonctionnalités** ou une **sous-section** **Contexte** peut également être ajoutée ici.  
-S'il existe des alternatives à votre projet, c'est un bon endroit pour énumérer les facteurs de différenciation.
+LaBoutique propose des produits calssés en différentes catégories.
+La page d'accueil explique le contenu du site.
+
+La barre de navigation permet d'afficher la page produits, la page catégories, la page contact et de revenir à la page d'accueil.
+La page produits permet d'afficher les produits filtrés par la barre Search. Le produit peut être filtré sur le nom, la marque, la description et sur le prix.
+La page catégories permet d'afficher toutes les catégories disponibles ainsi que leur nombre de produits rattachés. EN cliquant sur une catégorie, on revient sur la page produit filtrée avec la catégorie.
 
 # Installation
 Récupérer l'URL de ce projet en cliquant sur le bouton CODE et en copiant l'URL affichée.
@@ -40,20 +42,6 @@ Copier l'URL fournie par le terminal dans votre navigateur web et c'est parti!
 **Comment arrêter le projet:**
 Arrêter le serveur virtuel: aller dans la fenêtre du terminal et faites Ctrl C .
 Vous pouvez fermer votre vsCode.
-
-
-# Support
-
-Indiquez ou l'on peut obtenir de l'aide : **Issue** , **email**, etc ...
-
-# Feuille de route
-
-Si vous avez des idées pour des versions futures, il est conseillé de les lister dans le **readme**.
-
-# Contribution
-
-Indiquez si vous êtes ouvert aux contributions et quelles sont vos exigences pour les accepter.  
-Fournir une documentation et marche à suivre afin de guider tous ceux qui veulent participier à votre projet.
 
 # Licence
 
