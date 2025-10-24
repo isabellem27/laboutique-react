@@ -18,6 +18,7 @@ createRoot(document.getElementById('root')).render(
         <Route element={<Header />}>
           <Route path="/" element={<App />} />
           <Route path="/categories" element={<Categories />} />
+          <Route path="/categorie/:slug" element={<Categories />} />
           <Route path="/produits" element={<Produits />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Notfound />} />

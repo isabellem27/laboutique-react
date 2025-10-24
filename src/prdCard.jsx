@@ -1,4 +1,5 @@
-export default function prdCard (props){
+import './assets/css/PrdCard.css'
+export default function PrdCard (props){
     
     return (    
         <div className="prdCard" >

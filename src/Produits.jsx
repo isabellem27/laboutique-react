@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import prdData from './assets/produits.json'
 import './assets/css/Produits.css'
-import prdCard from './prdCard.jsx'
+import PrdCard from './PrdCard.jsx'
 
 function Produits(){
     const allProducts = prdData.products;
@@ -23,7 +23,7 @@ function Produits(){
 
      return (
     <>
-        <body>
+        <div className='bodyPrd'>
 
             <div className='searchPrd'>
                     <input type='text' placeholder='Search...' 
@@ -33,16 +33,16 @@ function Produits(){
                     
             </div>
 
-            <h1>Nos produits</h1>
+            <h1 className="bodyTitle">Nos produits</h1>
             <section className="prdCards">
                 {filtered.map(
                     (prd) => (
-                            <prdCard key={prd.id} prd={prd} />
+                            <PrdCard key={prd.id} prd={prd} />
 
                 ))}
 
             </section>
-       </body>
+       </div>
     </>
   )
 }

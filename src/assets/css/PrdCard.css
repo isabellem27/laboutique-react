@@ -1,0 +1,23 @@
+.prdCard {
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 1px;
+    width: 15%;
+    background-color: rgb(201, 215, 131);
+    border-radius: 12px;
+    align-content: center;
+}
+.prdCard .image{
+    align-content: center;
+    width: 100%;
+}
+.prdCard img {
+    border: none;
+    width : 100%;
+}
+.prdCard h3{
+    font-size: 1.1rem;
+}
+.prdCard p{
+    font-size: .9rem;
+}

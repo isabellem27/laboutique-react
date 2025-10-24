@@ -3,7 +3,7 @@ import './assets/css/App.css'
 function Contact(){
     return (
         <>
-          <body>
+          <div className='body'>
             <div className="container">
                 <h1 className="title">Contact — LaBoutique</h1>
                 <p>Vous avez une question, une suggestion ou besoin d’aide ? Notre équipe est là pour vous répondre rapidement.</p>
@@ -25,7 +25,7 @@ function Contact(){
                 <br></br>
                 <p>Merci de votre confiance — l’équipe LaBoutique</p> 
             </div>
-          </body>
+          </div>
         </>
       )
 }

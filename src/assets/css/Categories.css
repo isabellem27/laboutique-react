@@ -1,0 +1,63 @@
+
+
+/* Container principal */
+.catCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+/* Carte de catégorie */
+.catCard {
+background-color: #f8f9fa;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+padding: 20px;
+flex: 1 1 250px; /* responsive */
+transition: transform 0.2s, box-shadow 0.2s;
+cursor: pointer;
+}
+
+.catCard:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Titre de catégorie */
+.catCard h2 {
+font-size: 1.2rem;
+margin-bottom: 10px;
+color: #333;
+}
+
+/* Liste  catégories */
+.catCard ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.catCard li {
+font-size: 1rem;
+padding: 5px 0;
+color: #555;
+}
+
+button{
+  background-color: rgb(201, 215, 131);
+  font-weight: bolder;
+  height: 30px;
+  border: 5px solide black;
+  border-radius: 37%;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+.catCards {
+    flex-direction: column;
+}
+}
+  
